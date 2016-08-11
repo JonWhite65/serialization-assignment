@@ -6,7 +6,6 @@ import javax.xml.bind.annotation.XmlTransient;
 import javax.xml.bind.annotation.XmlType;
 
 @XmlRootElement
-@XmlType()
 public class Student {
 	@XmlElement
     private Contact contact;
